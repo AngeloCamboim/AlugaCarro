@@ -13,7 +13,7 @@
     </Component>
     <Component class="javax.persistence.Query" name="query">
       <Properties>
-        <Property name="query" type="java.lang.String" value="SELECT c FROM Carrosdisponiveis_1 c"/>
+        <Property name="query" type="java.lang.String" value="SELECT c FROM Cadastroclientes c"/>
         <Property name="entityManager" type="java.lang.Object" editor="org.netbeans.modules.form.j2ee.J2EEPropertyModifier$EMProperty$EntityManagerEditor">
           <ComponentRef name="entityManager"/>
         </Property>
@@ -31,7 +31,7 @@
         <Property name="observable" type="boolean" value="true"/>
       </Properties>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;Modelo.Carrosdisponiveis_1&gt;"/>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;Modelo.Cadastroclientes&gt;"/>
         <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="false"/>
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="2"/>
       </AuxValues>
@@ -70,24 +70,26 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="idLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="nomeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="montadoraLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="anoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="placaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="valorDiarioLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="situacaoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="idadeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cpfLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cnhLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="enderecoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="telefoneLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cartaocreditoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="idField" alignment="0" pref="690" max="32767" attributes="0"/>
-                                  <Component id="nomeField" alignment="0" pref="690" max="32767" attributes="0"/>
-                                  <Component id="montadoraField" alignment="0" pref="690" max="32767" attributes="0"/>
-                                  <Component id="anoField" alignment="0" pref="690" max="32767" attributes="0"/>
-                                  <Component id="placaField" alignment="0" pref="690" max="32767" attributes="0"/>
-                                  <Component id="valorDiarioField" alignment="0" pref="690" max="32767" attributes="0"/>
-                                  <Component id="situacaoField" alignment="0" pref="690" max="32767" attributes="0"/>
+                                  <Component id="idField" alignment="0" pref="688" max="32767" attributes="0"/>
+                                  <Component id="nomeField" alignment="0" pref="688" max="32767" attributes="0"/>
+                                  <Component id="idadeField" alignment="0" pref="688" max="32767" attributes="0"/>
+                                  <Component id="cpfField" alignment="0" pref="688" max="32767" attributes="0"/>
+                                  <Component id="cnhField" alignment="0" pref="688" max="32767" attributes="0"/>
+                                  <Component id="enderecoField" alignment="0" pref="688" max="32767" attributes="0"/>
+                                  <Component id="telefoneField" alignment="0" pref="688" max="32767" attributes="0"/>
+                                  <Component id="cartaocreditoField" alignment="0" pref="688" max="32767" attributes="0"/>
                               </Group>
                           </Group>
-                          <Component id="masterScrollPane" pref="752" max="32767" attributes="0"/>
+                          <Component id="masterScrollPane" pref="762" max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -99,7 +101,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" max="-2" attributes="0"/>
-              <Component id="masterScrollPane" pref="215" max="32767" attributes="0"/>
+              <Component id="masterScrollPane" pref="188" max="32767" attributes="0"/>
               <EmptySpace min="-2" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="idLabel" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -112,28 +114,33 @@
               </Group>
               <EmptySpace min="-2" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="montadoraLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="montadoraField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="idadeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="idadeField" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="anoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="anoField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cpfLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cpfField" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="placaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="placaField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cnhLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cnhField" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="valorDiarioLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="valorDiarioField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="enderecoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="enderecoField" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="situacaoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="situacaoField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="telefoneLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="telefoneField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cartaocreditoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cartaocreditoField" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" max="-2" attributes="1"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -166,24 +173,28 @@
                 <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="1"/>
                 <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
               </Subbinding>
-              <Subbinding sourcePath="${montadora}">
+              <Subbinding sourcePath="${idade}">
                 <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="2"/>
-                <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
-              </Subbinding>
-              <Subbinding sourcePath="${ano}">
-                <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="3"/>
                 <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="Integer.class"/>
               </Subbinding>
-              <Subbinding sourcePath="${placa}">
+              <Subbinding sourcePath="${cpf}">
+                <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="3"/>
+                <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+              </Subbinding>
+              <Subbinding sourcePath="${cnh}">
                 <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="4"/>
                 <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
               </Subbinding>
-              <Subbinding sourcePath="${valorDiario}">
+              <Subbinding sourcePath="${endereco}">
                 <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="5"/>
-                <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="java.math.BigDecimal.class"/>
+                <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
               </Subbinding>
-              <Subbinding sourcePath="${situacao}">
+              <Subbinding sourcePath="${telefone}">
                 <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="6"/>
+                <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
+              </Subbinding>
+              <Subbinding sourcePath="${cartaocredito}">
+                <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN" value="7"/>
                 <BindingParameter name="javax.swing.binding.ParameterKeys.COLUMN_CLASS" value="String.class"/>
               </Subbinding>
             </BindingProperty>
@@ -205,29 +216,34 @@
         <Property name="text" type="java.lang.String" value="Nome:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="montadoraLabel">
+    <Component class="javax.swing.JLabel" name="idadeLabel">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Montadora:"/>
+        <Property name="text" type="java.lang.String" value="Idade:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="anoLabel">
+    <Component class="javax.swing.JLabel" name="cpfLabel">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Ano:"/>
+        <Property name="text" type="java.lang.String" value="Cpf:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="placaLabel">
+    <Component class="javax.swing.JLabel" name="cnhLabel">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Placa:"/>
+        <Property name="text" type="java.lang.String" value="Cnh:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="valorDiarioLabel">
+    <Component class="javax.swing.JLabel" name="enderecoLabel">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Valor Diario:"/>
+        <Property name="text" type="java.lang.String" value="Endereco:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="situacaoLabel">
+    <Component class="javax.swing.JLabel" name="telefoneLabel">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Situacao:"/>
+        <Property name="text" type="java.lang.String" value="Telefone:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cartaocreditoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cartaocredito:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="idField">
@@ -246,44 +262,52 @@
         <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="nomeField" targetPath="enabled" updateStrategy="1" immediately="false"/>
       </BindingProperties>
     </Component>
-    <Component class="javax.swing.JTextField" name="montadoraField">
+    <Component class="javax.swing.JTextField" name="idadeField">
       <BindingProperties>
-        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.montadora}" target="montadoraField" targetPath="text" updateStrategy="0" immediately="false">
+        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.idade}" target="idadeField" targetPath="text" updateStrategy="0" immediately="false">
           <Property name="incompletePathValue" type="java.lang.String" value="null"/>
         </BindingProperty>
-        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="montadoraField" targetPath="enabled" updateStrategy="1" immediately="false"/>
+        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="idadeField" targetPath="enabled" updateStrategy="1" immediately="false"/>
       </BindingProperties>
     </Component>
-    <Component class="javax.swing.JTextField" name="anoField">
+    <Component class="javax.swing.JTextField" name="cpfField">
       <BindingProperties>
-        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.ano}" target="anoField" targetPath="text" updateStrategy="0" immediately="false">
+        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.cpf}" target="cpfField" targetPath="text" updateStrategy="0" immediately="false">
           <Property name="incompletePathValue" type="java.lang.String" value="null"/>
         </BindingProperty>
-        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="anoField" targetPath="enabled" updateStrategy="1" immediately="false"/>
+        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="cpfField" targetPath="enabled" updateStrategy="1" immediately="false"/>
       </BindingProperties>
     </Component>
-    <Component class="javax.swing.JTextField" name="placaField">
+    <Component class="javax.swing.JTextField" name="cnhField">
       <BindingProperties>
-        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.placa}" target="placaField" targetPath="text" updateStrategy="0" immediately="false">
+        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.cnh}" target="cnhField" targetPath="text" updateStrategy="0" immediately="false">
           <Property name="incompletePathValue" type="java.lang.String" value="null"/>
         </BindingProperty>
-        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="placaField" targetPath="enabled" updateStrategy="1" immediately="false"/>
+        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="cnhField" targetPath="enabled" updateStrategy="1" immediately="false"/>
       </BindingProperties>
     </Component>
-    <Component class="javax.swing.JTextField" name="valorDiarioField">
+    <Component class="javax.swing.JTextField" name="enderecoField">
       <BindingProperties>
-        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.valorDiario}" target="valorDiarioField" targetPath="text" updateStrategy="0" immediately="false">
+        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.endereco}" target="enderecoField" targetPath="text" updateStrategy="0" immediately="false">
           <Property name="incompletePathValue" type="java.lang.String" value="null"/>
         </BindingProperty>
-        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="valorDiarioField" targetPath="enabled" updateStrategy="1" immediately="false"/>
+        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="enderecoField" targetPath="enabled" updateStrategy="1" immediately="false"/>
       </BindingProperties>
     </Component>
-    <Component class="javax.swing.JTextField" name="situacaoField">
+    <Component class="javax.swing.JTextField" name="telefoneField">
       <BindingProperties>
-        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.situacao}" target="situacaoField" targetPath="text" updateStrategy="0" immediately="false">
+        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.telefone}" target="telefoneField" targetPath="text" updateStrategy="0" immediately="false">
           <Property name="incompletePathValue" type="java.lang.String" value="null"/>
         </BindingProperty>
-        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="situacaoField" targetPath="enabled" updateStrategy="1" immediately="false"/>
+        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="telefoneField" targetPath="enabled" updateStrategy="1" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cartaocreditoField">
+      <BindingProperties>
+        <BindingProperty name="text" source="masterTable" sourcePath="${selectedElement.cartaocredito}" target="cartaocreditoField" targetPath="text" updateStrategy="0" immediately="false">
+          <Property name="incompletePathValue" type="java.lang.String" value="null"/>
+        </BindingProperty>
+        <BindingProperty name="enabled" source="masterTable" sourcePath="${selectedElement != null}" target="cartaocreditoField" targetPath="enabled" updateStrategy="1" immediately="false"/>
       </BindingProperties>
     </Component>
     <Component class="javax.swing.JButton" name="saveButton">
